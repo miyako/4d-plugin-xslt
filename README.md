@@ -21,9 +21,6 @@ XSLT APPLY TRANSFORMATION($xmlPath;$xslPath;$outPath)
 
 //do the same with the plugin:
 
-$xslPath:=Get 4D folder(Current Resources folder)+"sample.xsl"
-$xmlPath:=Get 4D folder(Current Resources folder)+"apple.svg"
-
 ARRAY TEXT($paramNames;1)
 ARRAY TEXT($paramValues;1)
 
@@ -33,6 +30,4 @@ $paramValues{1}:="'test'"
 $xml:=XSLT Apply stylesheet ($xmlPath;$xslPath;$paramNames;$paramValues)
 
 SET TEXT TO PASTEBOARD($xml)
-
-
 ```
