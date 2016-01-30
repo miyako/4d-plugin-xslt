@@ -3,7 +3,21 @@
 
 4D implementation of [libxslt] (http://xmlsoft.org/libxslt/). 64 bits OS X and Windows.
 
-example
+##Platform
+
+| carbon | cocoa | win32 | win64 |
+|:------:|:-----:|:---------:|:---------:|
+|🆗|🆗|🆗|🆗|
+
+Commands
+---
+
+```c
+// --- XSLT
+XSLT_Apply_stylesheet
+```
+
+Examples
 -------
 
 ```
