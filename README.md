@@ -9,12 +9,28 @@
 |:------:|:-----:|:---------:|:---------:|
 |🆗|🆗|🆗|🆗|
 
+
+##New in 1.1
+
+* New plugin architecture for v14+.
+* BLOB API.
+* In ``options`` you can pass a combination of instruction flags to alter how XML is parsed.
+
+By default, the following flags are activated (libxslt behaviour):
+
+```
+XML_PARSE_NOENT | XML_PARSE_DTDLOAD | XML_PARSE_DTDATTR | XML_PARSE_NOCDATA
+```
+
+For full list of XML parser options, see the [libxml2](http://xmlsoft.org/html/libxml-parser.html) documentation.
+
 Commands
 ---
 
 ```c
 // --- XSLT
-XSLT_Apply_stylesheet
+XSLT Apply stylesheet
+XSLT Apply stylesheet data
 ```
 
 Examples
