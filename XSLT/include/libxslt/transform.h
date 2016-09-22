@@ -44,7 +44,7 @@ XSLTPUBFUN xmlDocPtr XSLTCALL
 					 xmlDocPtr doc,
 					 const char **params,
 					 const char *output,
-					 FILE * profile,
+					 void (*_PA_YieldAbsolute)(void),
 					 xsltTransformContextPtr userCtxt);
 XSLTPUBFUN void XSLTCALL
                 xsltProcessOneNode      (xsltTransformContextPtr ctxt,
@@ -64,7 +64,7 @@ XSLTPUBFUN xmlDocPtr XSLTCALL
 		xsltProfileStylesheet	(xsltStylesheetPtr style,
 					 xmlDocPtr doc,
 					 const char **params,
-					 FILE * output);
+					 void (*_PA_YieldAbsolute)(void));
 XSLTPUBFUN int XSLTCALL
 		xsltRunStylesheet	(xsltStylesheetPtr style,
 					 xmlDocPtr doc,
@@ -79,7 +79,7 @@ XSLTPUBFUN int XSLTCALL
 					 const char *output,
 					 xmlSAXHandlerPtr SAX,
 					 xmlOutputBufferPtr IObuf,
-					 FILE * profile,
+					 void (*_PA_YieldAbsolute)(void),
 					 xsltTransformContextPtr userCtxt);
 XSLTPUBFUN void XSLTCALL
 		xsltApplyOneTemplate	(xsltTransformContextPtr ctxt,

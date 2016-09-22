@@ -1,0 +1,1 @@
+﻿{"name":"XSLT","id":20000,"commands":[{"theme":"XSLT","syntax":"XSLT Apply stylesheet(&T;&T;&Y;&Y;&L):T"},{"theme":"XSLT","syntax":"XSLT Apply stylesheet data(&O;&O;&Y;&Y;&L):O"}]}
