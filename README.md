@@ -9,6 +9,36 @@
 |:------:|:-----:|:---------:|:---------:|
 |🆗|🆗|🆗|🆗|
 
+##New (Jan 2017)
+
+The standard executables ``xsltproc`` and ``xmllint`` for LAUNCH EXTERNAL PROCESS are included.
+
+```
+PLATFORM PROPERTIES($platform)
+
+$rootPath:=Get 4D folder(Database folder)+\
+"plugins"+Folder separator+\
+"XSLT.bundle"+Folder separator+\
+"Contents"+Folder separator
+
+Case of 
+: ($platform=Mac OS)
+
+SET ENVIRONMENT VARIABLE("_4D_OPTION_CURRENT_DIRECTORY";\
+$rootPath+"MacOS"+Folder separator)
+
+: ($platform=Windows)
+
+SET ENVIRONMENT VARIABLE("_4D_OPTION_CURRENT_DIRECTORY";\
+$rootPath+"Windows"+Folder separator)
+
+  //64-bit version also available in Windows64
+
+End case 
+
+C_TEXT($stdIn;$stdOut;$stdErr)
+LAUNCH EXTERNAL PROCESS("xsltproc"+Choose($platform=Windows;".exe";"");$stdIn;$stdOut;$stdErr)
+```
 
 ##New in 1.1
 
