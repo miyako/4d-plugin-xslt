@@ -158,6 +158,9 @@
       <AdditionalLibraryDirectories>..\lib\x86</AdditionalLibraryDirectories>
       <AdditionalDependencies>libexslt.lib;libxml2.lib;libxslt.lib;libiconv.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\..\manifest\x86\$(TargetFileName).manifest %(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -182,6 +185,9 @@
       <AdditionalDependencies>libexslt.lib;libxml2.lib;libxslt.lib;libiconv.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\lib\x64</AdditionalLibraryDirectories>
     </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\..\manifest\x64\$(TargetFileName).manifest %(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\4D Plugin API\Classes\ARRAY_BOOLEAN.cpp">
