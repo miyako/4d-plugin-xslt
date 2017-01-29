@@ -21,20 +21,6 @@ xslt:=XSLT Apply stylesheet (xml;xsl;optionNames;optionValues;flags)
 
 document|type|description
 ------------|------------|----
-xml|BLOB|
-xsl|BLOB|
-optionNames|ARRAY TEXT|
-optionValues|ARRAY TEXT|
-optionValues|ARRAY TEXT|
-flags|INT32|
-document|BLOB|
-
-```
-xslt:=XSLT Apply stylesheet data (xml;xsl;paramNames;paramValues)
-```
-
-document|type|description
-------------|------------|----
 xml|TEXT|
 xsl|TEXT|
 optionNames|ARRAY TEXT|
@@ -43,9 +29,23 @@ optionValues|ARRAY TEXT|
 flags|INT32|
 document|TEXT|
 
+```
+xslt:=XSLT Apply stylesheet data (xml;xsl;paramNames;paramValues)
+```
+
+document|type|description
+------------|------------|----
+xml|BLOB|
+xsl|BLOB|
+optionNames|ARRAY TEXT|
+optionValues|ARRAY TEXT|
+optionValues|ARRAY TEXT|
+flags|INT32|
+document|BLOB|
+
 ##New (Jan 2017)
 
-The standard executables ``xsltproc`` and ``xmllint`` for LAUNCH EXTERNAL PROCESS are included.
+The standard executables ``xsltproc`` and ``xmllint`` for ``LAUNCH EXTERNAL PROCESS`` are included.
 
 ```
 PLATFORM PROPERTIES($platform)
