@@ -25,12 +25,11 @@ xml|TEXT|
 xsl|TEXT|
 optionNames|ARRAY TEXT|
 optionValues|ARRAY TEXT|
-optionValues|ARRAY TEXT|
 flags|INT32|
 document|TEXT|
 
 ```
-xslt:=XSLT Apply stylesheet data (xml;xsl;paramNames;paramValues)
+xslt:=XSLT Apply stylesheet data (xml;xsl;optionNames;optionValues;flags)
 ```
 
 document|type|description
@@ -38,7 +37,6 @@ document|type|description
 xml|BLOB|
 xsl|BLOB|
 optionNames|ARRAY TEXT|
-optionValues|ARRAY TEXT|
 optionValues|ARRAY TEXT|
 flags|INT32|
 document|BLOB|
