@@ -19,7 +19,7 @@
 xslt:=XSLT Apply stylesheet (xml;xsl;optionNames;optionValues;flags)
 ```
 
-document|type|description
+Parameter|Type|Description
 ------------|------------|----
 xml|TEXT|
 xsl|TEXT|
@@ -32,7 +32,7 @@ document|TEXT|
 xslt:=XSLT Apply stylesheet data (xml;xsl;optionNames;optionValues;flags)
 ```
 
-document|type|description
+Parameter|Type|Description
 ------------|------------|----
 xml|BLOB|
 xsl|BLOB|
