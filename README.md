@@ -124,6 +124,6 @@ SET TEXT TO PASTEBOARD($xslt)
 
 On Mac, a custom built version of ``libxml2``, ``libxslt``, ``libexslt`` is used, instead of the system libraries. This is because...
 
-* The functions ``_xmlOutputBufferGetContent`` and ``_xmlOutputBufferGetSize`` used for BLOB output are not present in the 10.8 SDK (it is present starting from the 10.9 SDK).
+* The functions ``xmlOutputBufferGetContent`` and ``xmlOutputBufferGetSize`` used for BLOB output are not present in the 10.8 SDK (it is present starting from the 10.9 SDK).
 
 * A pointer to ``PA_YieldAbsolute`` is passed in order to not block 4D during long calls.
