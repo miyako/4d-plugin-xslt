@@ -86,7 +86,7 @@ XML_PARSE_NOENT | XML_PARSE_DTDLOAD | XML_PARSE_DTDATTR | XML_PARSE_NOCDATA
 
 For full list of XML parser options, see the [libxml2](http://xmlsoft.org/html/libxml-parser.html) documentation.
 
-###Examples
+### Examples
 
 ```
 $xslPath:=Get 4D folder(Current resources folder)+"sample.xsl"
