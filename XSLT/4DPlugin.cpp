@@ -8,19 +8,9 @@
  #
  # --------------------------------------------------------------------------------*/
 
-
-#include "4DPluginAPI.h"
 #include "4DPlugin.h"
 
-bool IsProcessOnExit()
-{
-	C_TEXT name;
-	PA_long32 state, time;
-	PA_GetProcessInfo(PA_GetCurrentProcessNumber(), name, &state, &time);
-	CUTF16String procName(name.getUTF16StringPtr());
-	CUTF16String exitProcName((PA_Unichar *)"$\0x\0x\0\0\0");
-	return (!procName.compare(exitProcName));
-}
+std::mutex mutexXslt;
 
 void OnStartup()
 {
@@ -28,13 +18,10 @@ void OnStartup()
 	exsltRegisterAll();
 }
 
-void OnCloseProcess()
+void OnExit()
 {
-	if(IsProcessOnExit())
-	{
-		xsltCleanupGlobals();
-		xmlCleanupParser();
-	}
+    xsltCleanupGlobals();
+    xmlCleanupParser();
 }
 
 #pragma mark -
@@ -107,7 +94,7 @@ namespace XSLT
 				ctxt = xsltNewTransformContext(stylesheet, xmlDoc);
 				
 				void (*_PA_YieldAbsolute)(void) = PA_YieldAbsolute;
-				xmlOutDoc = xsltApplyStylesheetUser (stylesheet, xmlDoc, &params[0], NULL, _PA_YieldAbsolute, ctxt);
+				xmlOutDoc = xsltApplyStylesheetUser (stylesheet, xmlDoc, &params[0], NULL, NULL, ctxt, _PA_YieldAbsolute);
 				
 				if(xmlOutDoc)
 				{
@@ -170,9 +157,9 @@ void CommandDispatcher (PA_long32 pProcNum, sLONG_PTR *pResult, PackagePtr pPara
 			OnStartup();
 			break;
 			
-		case kCloseProcess :
-			OnCloseProcess();
-			break;
+        case kDeinitPlugin :
+            OnExit();
+            break;
 			
 // --- XSLT
 

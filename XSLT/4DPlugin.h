@@ -23,6 +23,10 @@
 #include <libxslt/security.h>
 #include <libexslt/exslt.h>
 
+#include <mutex>
+
+#include "4DPluginAPI.h"
+
 // --- XSLT
 void XSLT_Apply_stylesheet(sLONG_PTR *pResult, PackagePtr pParams);
 void XSLT_Apply_stylesheet_data(sLONG_PTR *pResult, PackagePtr pParams);

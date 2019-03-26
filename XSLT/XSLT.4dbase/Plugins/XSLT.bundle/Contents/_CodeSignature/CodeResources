@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aI+uKtMvPZdoB73n2IOyY2FG0Tw=
+			mC7KzjXs6Vm1v6IbmrPqnhYI87U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -112,60 +112,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/XSLT.html</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			43Xk5sfsj1rxIGZGUlXvyDHF5K4=
-			</data>
-			<key>requirement</key>
-			<string>identifier XSLT and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libexslt.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			0iYmz3/NI+uucdS2guni07W2hpg=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libexslt.0" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libxml2.2.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			s3bEcmQM98FZlRl0ZI3C/t8HjdM=
-			</data>
-			<key>requirement</key>
-			<string>identifier libxml2 and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libxslt.1.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			0jxwZc+LNG9lr4M4ae9qwos9O2U=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libxslt.1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/xmllint</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			L1bu1bLbe/wosNVeo5cHn2GBBUg=
-			</data>
-			<key>requirement</key>
-			<string>identifier xmllint and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/xsltproc</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			fFoopLsVAlm0qBUwlyFs6K7W1Kk=
-			</data>
-			<key>requirement</key>
-			<string>identifier xsltproc and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
 		<key>QuickLook/Thumbnail.png</key>
 		<dict>
 			<key>hash</key>
@@ -434,11 +380,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aI+uKtMvPZdoB73n2IOyY2FG0Tw=
+			mC7KzjXs6Vm1v6IbmrPqnhYI87U=
 			</data>
 			<key>hash2</key>
 			<data>
-			RhcsAU2E/EiiGzimkkKoQYp4U8WkNDZVC8aPwSeo7yQ=
+			EIvvEgz9E2s8r/52qCnPstgpxam7aQMezcEtIjIL7aU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -458,183 +404,51 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XTm2imOpI7t5jeGRKGmsnWW8L/s=
+			BrXUn+dMGPPcHvLsvjzBsVICWGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			CFUpXjikZYwrc0ZUfp6MX+YmLIn5ohTSvU2mqWDlbkI=
+			PJ1Qahvq0mz9NnaptfxRwpuH6T2znIBf7js5ZM+6iEs=
 			</data>
 		</dict>
-		<key>Windows/XSLT.html</key>
+		<key>Windows/vcruntime140.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3f3hE90+GMuzyHmK9RVQvLK+Zs8=
+			qDpOxwF20NwKx03mv6KIkMGPHSU=
 			</data>
 			<key>hash2</key>
 			<data>
-			EKLRdLPtg+PsdxOrCPdnhlHZLbWCJYLapu/sbQTYgHg=
-			</data>
-		</dict>
-		<key>Windows/libcharset-1.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+6obcCinfvYNu9mytkct2Fd+yug=
-			</data>
-			<key>hash2</key>
-			<data>
-			svnkvh8fRwKnpLCrD61lI/AU+05H5ubb4ufo3IbtbhU=
-			</data>
-		</dict>
-		<key>Windows/libexslt-0.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NjtP5qN0TpBI8MwWye6FMy9BxqM=
-			</data>
-			<key>hash2</key>
-			<data>
-			qLzCDaXJPH+QZny7rT4ccw7hCnDte2ugOh0h8IZL4ds=
-			</data>
-		</dict>
-		<key>Windows/libiconv-2.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			h/4ylP0kC17Q/M+ifb9t+Qb3dGE=
-			</data>
-			<key>hash2</key>
-			<data>
-			yEev7OrKfgvvmotYUBk+kuG4oCyKnvdS+O9Sh+ofZuU=
-			</data>
-		</dict>
-		<key>Windows/libxml2-2.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			J6LMdBha6PmF2HNCVKzphu3mc7A=
-			</data>
-			<key>hash2</key>
-			<data>
-			VPBWAb+4bCDsv0tdL2BjyYWHoSnzEQURA2sH1GIUqbk=
-			</data>
-		</dict>
-		<key>Windows/libxslt-1.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tOvnW56ERpGlzZUjsl1xsRWAjA8=
-			</data>
-			<key>hash2</key>
-			<data>
-			a5OoXiPZ7jlac2m1ZPEf9a8BFnuINlYXhLf8OxngxQQ=
-			</data>
-		</dict>
-		<key>Windows/zlib1.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g2G37VXfeYuM9rB5619F1didufE=
-			</data>
-			<key>hash2</key>
-			<data>
-			zJQmjBHFzSxU6lhoqo0nSNA5GBV/7wcYE0yjhVDE0cE=
+			LbJKllnn90/lxa10K72DUMj1vkYPmt8cn6EeDztFcb4=
 			</data>
 		</dict>
 		<key>Windows64/XSLT.4DX</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n5158pOJptxljgpcZuaxTldcom0=
+			jIQ4eLH/bQ+Ty5rKOsR2W5DynRo=
 			</data>
 			<key>hash2</key>
 			<data>
-			sdcMYqijKYz90hv6YahZN2O22JBrfBUkxbg0Y47mxnE=
+			4J86nfb7BpUNouKH3z+1KsbX6ovqk60/ndx/bZFyVn0=
 			</data>
 		</dict>
-		<key>Windows64/XSLT.html</key>
+		<key>Windows64/vcruntime140.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3f3hE90+GMuzyHmK9RVQvLK+Zs8=
+			RPwfL/P6ciT52XBdcgtg819m1E8=
 			</data>
 			<key>hash2</key>
 			<data>
-			EKLRdLPtg+PsdxOrCPdnhlHZLbWCJYLapu/sbQTYgHg=
-			</data>
-		</dict>
-		<key>Windows64/libcharset-1.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tnQKUvopMnkpMnGtO+RO7R09jQs=
-			</data>
-			<key>hash2</key>
-			<data>
-			k3RVT32jSwe16ydvped+lDVz6KseTOf+0ghjmRqrDks=
-			</data>
-		</dict>
-		<key>Windows64/libexslt-0.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6rAOT4eTbUn7RcD5CCplISL1bzA=
-			</data>
-			<key>hash2</key>
-			<data>
-			uiKqY6zfCtTH/8i40E6FcaHJdNruOrk201DyeHlAU0Y=
-			</data>
-		</dict>
-		<key>Windows64/libiconv-2.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZcUlEpusSNL8iSebVbWu6tZq5m8=
-			</data>
-			<key>hash2</key>
-			<data>
-			BN7RJoR9aLfaS/yPYFYEnJNDjgs71BUJjUtQ/MzZJGI=
-			</data>
-		</dict>
-		<key>Windows64/libxml2-2.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m2TYTRybc0bomR3Zcd7ZWXAzHUc=
-			</data>
-			<key>hash2</key>
-			<data>
-			5CnY8rDRjmMhkDbaYQwsXxBw/jG+Ux2ohzOsjBj3a+g=
-			</data>
-		</dict>
-		<key>Windows64/libxslt-1.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WNQgt4isx5JnNVYJmq6G2NpugYo=
-			</data>
-			<key>hash2</key>
-			<data>
-			xeY/IewGSc13oUKor9wT2yPOUquXTl+aNjCCpS7qgVc=
-			</data>
-		</dict>
-		<key>Windows64/zlib1.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BMV0zp9sTtr8KcG7QEx+tXBCf34=
-			</data>
-			<key>hash2</key>
-			<data>
-			StjktTuc1NcBS29xIEDm5SgZj/avipEo+7Unx8K4iA0=
+			OTedDDGKoZ+/s6xN6UqEYAIYzvrjPCu0QSf5lLOQv5A=
 			</data>
 		</dict>
 		<key>manifest.json</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			21jVS8L2DnfDjNFYcJDUyWrSipk=
+			FdQMAKPD5PdQN8CVz/BwPtNgZfs=
 			</data>
 			<key>requirement</key>
 			<string>identifier manifest and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -657,6 +471,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -716,6 +535,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
