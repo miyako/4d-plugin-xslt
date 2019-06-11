@@ -437,10 +437,7 @@
 		42D60B400A9DDBC8002ABB42 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -474,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.4D.XSLT;
 				PRODUCT_NAME = XSLT;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx10.13;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				USER_HEADER_SEARCH_PATHS = "include include/libxslt-1.1.33";
 				WARNING_CFLAGS = (
@@ -490,10 +487,7 @@
 		42D60B410A9DDBC8002ABB42 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -524,7 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.4D.XSLT;
 				PRODUCT_NAME = XSLT;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx10.13;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				USER_HEADER_SEARCH_PATHS = "include include/libxslt-1.1.33";
 				WARNING_CFLAGS = (
@@ -540,10 +534,7 @@
 		42D60B420A9DDBC8002ABB42 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -572,7 +563,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.4D.XSLT;
 				PRODUCT_NAME = XSLT;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx10.13;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				USER_HEADER_SEARCH_PATHS = "include include/libxslt-1.1.33";
 				WARNING_CFLAGS = (
@@ -587,10 +578,7 @@
 		42D60B440A9DDBC8002ABB42 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -623,7 +611,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OBJROOT = "$(SRCROOT)/build";
-				SDKROOT = macosx10.13;
+				SDKROOT = macosx;
 				SYMROOT = "$(SRCROOT)/$(PRODUCT_NAME).4dbase/Plugins";
 				USER_HEADER_SEARCH_PATHS = include;
 			};
@@ -632,10 +620,7 @@
 		42D60B450A9DDBC8002ABB42 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -668,7 +653,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OBJROOT = "$(SRCROOT)/build";
-				SDKROOT = macosx10.13;
+				SDKROOT = macosx;
 				SYMROOT = "$(SRCROOT)/$(PRODUCT_NAME).4dbase/Plugins";
 				USER_HEADER_SEARCH_PATHS = include;
 			};
@@ -677,10 +662,7 @@
 		42D60B460A9DDBC8002ABB42 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -711,7 +693,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx10.13;
+				SDKROOT = macosx;
 				SYMROOT = "$(SRCROOT)/$(PRODUCT_NAME).4dbase/Plugins";
 				USER_HEADER_SEARCH_PATHS = include;
 			};
